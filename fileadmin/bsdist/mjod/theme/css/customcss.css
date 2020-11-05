@@ -75,23 +75,14 @@ img.logo {
 	top: 0;
 }
 .langnav>span {
-    padding: 0 17px 0 17px;
-    font-size: 11px;
-    line-height: 35px;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #8a8a8a;
-    margin-right: 2px;
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transition: opacity 0.5s ease-in;
-    -moz-transition: opacity 0.5s ease-in;
-    transition: opacity 0.5s ease-in;
+    display: block;
+		width: 40px;
+		float:left;
+		margin-right: 10px;
+		filter: grayscale(100%);
 }
-.langnav>span a {
-	color: #fff;
+.langnav>span:hover {
+	filter: grayscale(0%);
 }
 
 footer .container .row {
