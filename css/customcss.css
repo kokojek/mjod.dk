@@ -101,6 +101,9 @@ div{
     background-color: #777;
 }
 /*Body*/
+header h1 a,h3 a{
+    color: #000000;
+}
 body {
     font-size: 16px;
     line-height: 1.42857;
