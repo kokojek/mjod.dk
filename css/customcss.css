@@ -26,6 +26,7 @@ div{
 	margin-right: 10px;
 	filter: grayscale(100%);
 }
+*{margin: 0; padding: 0;}
 .langnav>a:hover {
 	filter: grayscale(0%);
 }
@@ -36,10 +37,10 @@ div{
 /*Navbar*/
 .navbar{
     width: 50%;
+	text-align: center;
     margin: 0 auto;
     background-color: #fff;
     border-color: #fff;
-    text-align: center;
     display: block;
 }
 .navbar ul{
@@ -48,7 +49,7 @@ div{
     display: inline-block;
 }
 .navbar ul li{
-    display: inline-block;
+	float: left;
     text-align: center;
     margin: 0 20px;
 }
@@ -67,7 +68,7 @@ div{
     float: none;
     vertical-align: top;
     font-family: 'Modern No. 20';
-    font-size: 22px;
+    font-size: 16px;
     border: none;
     background: none;
 }
@@ -87,7 +88,7 @@ div{
 }
 .dropdown-content a{
     display: block;
-    font-size: 22px;
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
     float: left;
@@ -112,7 +113,7 @@ header h1 a,h3 a{
     width: 100%;
 }
 .side-decor div img{
-    width: 50px;
+    width: 2.3vw;
     opacity: 0.05;
 }
 .side-decor-left{
@@ -128,7 +129,10 @@ header h1 a,h3 a{
 }
 .siderune-right{
     float: right;
-
+}
+.slider{
+	width: 50%;
+	margin: 0 auto;
 }
 body {
     font-size: 16px;
@@ -161,4 +165,8 @@ footer .container .row {
 }
 .footergrid div{
     margin: 0 auto;
+}
+/*FAQ CSS*/
+.question{
+	
 }
