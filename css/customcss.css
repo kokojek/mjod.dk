@@ -104,6 +104,31 @@ div{
 header h1 a,h3 a{
     color: #000000;
 }
+/*side decor*/
+.side-decor{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+.side-decor div img{
+    width: 50px;
+    opacity: 0.5;
+}
+.side-decor-left{
+    float: left;
+    margin-left: 10%;
+}
+.side-decor-right{
+    float: right;
+    margin-right: 10%;
+}
+.siderune-left{
+    float: left;
+}
+.siderune-right{
+    float: right;
+
+}
 body {
     font-size: 16px;
     line-height: 1.42857;
