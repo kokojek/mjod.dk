@@ -227,3 +227,13 @@ footer .container .row {
 .active, .accordion:hover {
   background-color: #ccc; 
 }
+/*Madopskrifter*/
+.opskriftmad{
+	width: 30%;
+	float: right;
+	position: relative;
+	margin-right: 5px;
+}
+.opskriftmad img{
+	width: 100%;
+}
