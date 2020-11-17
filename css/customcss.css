@@ -197,6 +197,33 @@ footer .container .row {
     margin: 0 auto;
 }
 /*FAQ CSS*/
-.question{
+.faq-div-top{
+	width: 100%;
+}
+.faq-div{
 	
+}
+.accordion{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #E9E9E950; 
+  	color: #444;
+  	cursor: pointer;
+  	padding: 6px 18px;
+  	border: none;
+  	text-align: left;
+  	outline: none;
+  	font-size: 15px;
+  	transition: 0.4s;
+}
+.panel{
+	padding: 0 18px;
+	display: none;
+	background-color: white;
+	overflow: hidden;
+}
+.question{
+}
+.active, .accordion:hover {
+  background-color: #ccc; 
 }
