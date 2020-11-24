@@ -238,21 +238,51 @@ footer .container .row {
 	width: 100%;
 }
 
+/*Overview text*/
+.pagetitle{
+    text-align: center;
+}
 /*overview slides*/
 .mjoeds{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-.myslides{
-    display: none;
+.mySlides{
+    display: grid;
 }
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-    display: grid;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -266,10 +296,12 @@ footer .container .row {
   text-align: center;
 }
 
+
 /* The dots/bullets/indicators */
-.dot {
-  height: 10px;
-  width: 10px;
+.dot 
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -277,11 +309,11 @@ footer .container .row {
   transition: background-color 0.6s ease;
 }
 
-.active {
+.active, .dot:hover {
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Fading animation 
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -297,4 +329,4 @@ footer .container .row {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
+}*/
