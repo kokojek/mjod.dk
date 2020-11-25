@@ -120,7 +120,6 @@ header h1 a,h3 a{
 .side-decor{
     position: fixed;
     margin-top: -25px;
-    z-index: 9999;
     width: 100%;
 }
 .side-decor div img{
@@ -243,19 +242,20 @@ footer .container .row {
     text-align: center;
 }
 /*overview slides*/
-.mjoeds{
+.overview{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
 }
-.mySlides{
+.product{
     display: grid;
 }
-.mySlides img{
+.product img{
     width: 100%;
 }
 /* Slideshow container */
-.slideshow-container {
+.product-container {
   position: relative;
   margin: auto;
 }
@@ -270,8 +270,8 @@ footer .container .row {
   color: #000;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
+  bottom: 12px;
   width: 100%;
   text-align: center;
 }
@@ -282,7 +282,7 @@ footer .container .row {
   cursor: pointer;
   height: 12px;
   width: 12px;
-  margin: 15px 2px 0;
+  margin: 2px 0;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -298,4 +298,22 @@ footer .container .row {
 }
 .noshow{
     display: none;
+}
+
+/*Individual products*/
+.individualproduct{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col-md-6{
+    display: grid;
+}
+.findforhandlerknap{
+    background-color: #859FAA63;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 5px;
+    color:#000;
 }

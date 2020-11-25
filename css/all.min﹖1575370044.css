@@ -114,11 +114,11 @@
         .featherlight-loading .featherlight-next,.featherlight-loading .featherlight-previous{display:none;}
         .featherlight-first-slide.featherlight-last-slide .featherlight-next,.featherlight-first-slide.featherlight-last-slide .featherlight-previous{display:none;}
         }
-        @media only screen and (max-device-width:1024px;){
+        @media only screen and (max-device-width:1024px){
           .featherlight-next:hover,.featherlight-previous:hover{background:0 0;}
           .featherlight-next span,.featherlight-previous span{display:block;}
         }
-        @media only screen and (max-width:1024px;){
+        @media only screen and (max-width:1024px){
           .featherlight-next,.featherlight-previous{
             top:10px;
             right:10px;
@@ -2187,7 +2187,6 @@
 
  .row:after,
  .row:before {
- 	content: " ";
  	display: table
  }
 
