@@ -121,6 +121,7 @@ header h1 a,h3 a{
     position: fixed;
     margin-top: -25px;
     width: 100%;
+    z-index: -1;
 }
 .side-decor div img{
     width: 2.3vw;
@@ -236,7 +237,19 @@ footer .container .row {
 .opskriftmad img{
 	width: 100%;
 }
-
+/*cocktails*/
+.opskrift{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.opskrift div{
+    display: grid;
+}
+.opskrift div img{
+    width: 50%;
+    margin: 0 auto;
+}
 /*Overview text*/
 .pagetitle{
     text-align: center;
@@ -247,6 +260,12 @@ footer .container .row {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 25px;
+}
+.krusoverview{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
 }
 .product{
     display: grid;
@@ -274,6 +293,9 @@ footer .container .row {
   bottom: 12px;
   width: 100%;
   text-align: center;
+}
+.text a{
+    color: #000;
 }
 
 
