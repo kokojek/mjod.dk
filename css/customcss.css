@@ -222,10 +222,18 @@ footer .container .row {
 	background-color: white;
 	overflow: hidden;
 }
+.panel p{
+    text-align: left;
+}
 .question{
 }
 .active, .accordion:hover {
   background-color: #ccc; 
+    color: #fff;
+}
+.question-video{
+    width: 75%;
+    margin: 15px auto;
 }
 /*Madopskrifter*/
 .opskriftmad{
