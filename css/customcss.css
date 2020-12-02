@@ -245,6 +245,112 @@ footer .container .row {
     width: 75%;
     margin: 15px auto;
 }
+/*VUE.JS Accordion*/
+#app {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#app,
+.accordion,
+.accordion-item,
+.accordion-header,
+.accordion-body {
+  font-family: inherit;
+}
+
+#app {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.accordion {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: auto;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.accordion-item.accordion-active .accordion-caret {
+  animation: accordion-is-active 200ms linear forwards;
+}
+
+.accordion-header {
+  color: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: relative;
+}
+.accordion-header a {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  transition: background-color 200ms ease-in-out;
+}
+.accordion-header a:not(.accordion-active):hover {
+  background-color: #efefef;
+}
+
+.accordion-header-div {
+  padding: 1rem 1rem 1rem 1rem;
+}
+.accordion-header-div:last-child {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-caret {
+  background-image: linear-gradient(to top right, transparent 50%, #727272 50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: rotate(-45deg);
+  animation: accordion-is-inactive 200ms linear forwards;
+}
+
+.accordion-body {
+  height: 0;
+  overflow: hidden;
+}
+
+.accordion-content {
+  padding: 1rem;
+}
+
+@keyframes accordion-is-inactive {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: scale(1.5) rotate(45deg);
+  }
+  100% {
+    transform: rotate(135deg);
+  }
+}
+@keyframes accordion-is-active {
+  0% {
+    transform: rotate(135deg);
+  }
+  50% {
+    transform: scale(1.5) rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
 /*Madopskrifter*/
 .opskriftmad{
 	width: 30%;
