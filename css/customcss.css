@@ -196,6 +196,16 @@ footer .container .row {
 .footergrid div{
     margin: 0 auto;
 }
+.socialmediadiv{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.socialmedialink{
+    margin: 0 auto;
+    display: grid;
+}
+
 /*FAQ CSS*/
 .faq-div-top{
 	width: 100%;
